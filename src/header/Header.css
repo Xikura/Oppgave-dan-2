@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "ABCSocial-Medium";
+  src: url(../fonts/ABCSocial-Medium.otf);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  min-width: 494px;
+  width: stretch;
+  height: 60px;
+  gap: 20px;
+  background: linear-gradient(360deg, #06272f 0%, #418898 100%);
+}
+
+.logo {
+  padding: 0 20px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.links a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  font-family: "ABCSocial-Medium";
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0 10px;
+
+  &:hover {
+    font-family: "ABCSocial-Medium";
+    font-size: 18px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 6px;
+  }
+}
+
+.buttons {
+  display: flex;
+  margin: 0 12px;
+}
+
+@media screen and (max-width: 800px) {
+  .links {
+    display: none;
+  }
+}

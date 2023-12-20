@@ -1,0 +1,16 @@
+a.link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  font-family: "ABCSocial-Medium";
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0 10px;
+
+  &:hover {
+    font-family: "ABCSocial-Medium";
+    font-size: 18px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 6px;
+  }
+}

@@ -1,0 +1,22 @@
+.icon--button {
+  margin: 0 10px;
+  height: 48px;
+  width: 48px;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  border: none;
+  color: white;
+  text-align: center;
+  align-items: center;
+
+  .icon {
+    height: 24px;
+    width: 24px;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background-image: linear-gradient(rgb(0 0 0/40%) 0 0);
+  }
+}
